@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+ <header>
+     <h6>DETTE ER EN TEST BABY</h6>
+     <h1>THE CODE REVIEW</h1>
+     <h2>Sign for our newsletter</h2>
+     <p >Get the latest news on how your code is
+        doing right in your inbox</p>
+ </header>
+ <form>
+     <hr id="tophr">
+     <fieldset>
+     <legend><b>Contact information</b></legend>
+    <label class="upperlabels" for="fname">Full name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Required"><br>
+    <label class="upperlabels" for="email">Enter your email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Required"><br>
+    <label class="upperlabels" for="phone">Phone number:</label><br>
+    <input type="tel" id="phone" name="phone" required><br>
+    <label class="upperlabels" for="city">City</label><br>
+    <input type="text" id="city" name="city"><br>
+    <label class="upperlabels" for="state">State:</label><br>
+    <select id="state" name="state">
+  <option value="Choose state"> Choose State</option>
+  <option value="statea">statea</option>
+  <option value="stateb">stateb</option>
+  <option value="statec">statec</option>
+  <option value="stated">stated</option>
+    </select><br>
+    <label class="upperlabels" for="zip">Zip code</label><br>
+    <input id="zip" name="zip" type="text">
+</fieldset>
+    <hr>
+    <fieldset>
+     <legend id="legendnews"><b>Newsletter</b></legend>
+     <p class="paragraph">Select the newsletter you would like to receive</p>
+    <input type="checkbox" id="htmlnews" name="htmlnews" checked="checked">
+    <label for="htmlnews">HTML News</label><br>
+    <input type="checkbox" id="css" name="css">
+    <label for="css">CSS News</label><br>
+    <input type="checkbox" id="js" name="js">
+    <label for="js">Javascript News</label><br><br>
+     <p class="paragraph">Newsletter format</p>
+    <input type="radio" id="html" name="html" checked="checked">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="plaintext" name="plaintext">
+    <label for="plaintext">Plain text</label><br>
+    <p class="paragraph2">Other topics you'd like to hear about</p>
+    <textarea name="" id="textfield" cols="30" rows="10"></textarea><br>
+    <button><b>Sign Up</b></button>
+    <h3><i>Copyright The Code Review</i><h3>
+    </fieldset>
+    </form>   
+</body>
+</html>

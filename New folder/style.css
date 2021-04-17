@@ -1,0 +1,179 @@
+body {
+  width: 320px;
+  margin: 0;
+}
+p {
+  color: rgb(161, 161, 161);
+}
+
+header {
+  border-bottom: solid 3px;
+  margin-bottom: 2px;
+}
+header h1 {
+  margin-top: 0%;
+  color: white;
+  background-color: rgb(12, 4, 53);
+  padding: 20px;
+  text-align: center;
+}
+header h2 {
+  font-size: x-large;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+p {
+  font-size: large;
+  text-align: center;
+  margin-top: 0;
+  color: rgb(161, 161, 161);
+}
+#tophr {
+  display: none;
+}
+fieldset {
+  border: none;
+  padding: 0 0 20px 0;
+}
+legend {
+  padding: 20px 0;
+}
+.paragraph {
+  font-size: large;
+  text-align: left;
+  margin-top: 0;
+  color: rgb(161, 161, 161);
+}
+
+.paragraph2 {
+  margin-top: 10px;
+  font-size: large;
+  text-align: left;
+  margin-top: 10px;
+  color: rgb(161, 161, 161);
+}
+
+form {
+  border-top: solid 0.1px;
+  margin-left: 1px;
+  margin-bottom: 20px;
+}
+label {
+  color: rgb(161, 161, 161);
+  font-size: large;
+}
+#fname,
+#email,
+#phone,
+#city {
+  font-size: small;
+  background-color: rgb(240, 240, 240);
+  text-align: end;
+  border: none;
+  margin: 10px 0;
+  width: 92%;
+  height: 25px;
+  padding: 5px 10px;
+}
+select {
+  margin: 10px 0;
+  font-size: small;
+}
+#state {
+  border: none;
+  background-color: rgb(240, 240, 240);
+  width: 98%;
+  height: 30px;
+}
+#zip {
+  border: none;
+  font-size: small;
+  background-color: rgb(240, 240, 240);
+  margin-top: 8px;
+  width: 25%;
+  height: 25px;
+}
+hr {
+  width: 315px;
+  height: 1px;
+  background-color: black;
+}
+
+textarea {
+  width: 98%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 2px;
+  border-color: rgb(240, 240, 240);
+}
+button {
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background-color: rgb(65, 182, 170);
+}
+h3 {
+  color: rgb(161, 161, 161);
+  font-size: small;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+  header {
+    border: none;
+  }
+  form {
+    border-top: solid 3px;
+    align-items: center;
+    margin: 12px 25%;
+  }
+
+  legend {
+    font-size: x-large;
+    padding-top: 20px;
+  }
+  #legendnews {
+    padding-bottom: 20px;
+  }
+
+  .upperlabels {
+    position: absolute;
+    margin-top: 25px;
+  }
+  #fname,
+  #email,
+  #phone,
+  #city,
+  #state,
+  #zip {
+    margin-top: 0;
+    width: 100%;
+    width: -moz-available; /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    margin-left: 160px;
+  }
+
+  #zip {
+    margin-top: 0;
+    margin-right: 25%;
+  }
+
+  #tophr {
+    display: block;
+    height: 0;
+    margin-top: 1px;
+    width: auto;
+  }
+  hr {
+    width: auto;
+    margin-top: 30px;
+  }
+}
