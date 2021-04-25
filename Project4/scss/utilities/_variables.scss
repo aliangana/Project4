@@ -1,0 +1,48 @@
+$base-color: #777;
+$headlineLink-color: #58e1c1;
+$linkThemeDefault: #51ddfc;
+$errorThemecol9: #deb2ee;
+$successThemecol10: #63cc82;
+$mediaquerybp: 768px;
+
+* {
+  color: $base-color;
+}
+.headline-primary {
+  color: $headlineLink-color;
+}
+.headline-secondary {
+  color: $base-color;
+}
+.blockquote {
+  border-left: 8px solid $headlineLink-color;
+}
+.nav-link:hover {
+  background-color: $headlineLink-color;
+}
+.input {
+  border-bottom: 5px solid $headlineLink-color;
+}
+.link {
+  color: $linkThemeDefault;
+}
+.theme.col-11 {
+  background-color: $linkThemeDefault;
+}
+.default {
+  background-color: $linkThemeDefault;
+}
+.error {
+  background-color: $errorThemecol9;
+}
+.theme.col-9 {
+  background-color: $errorThemecol9;
+}
+.success {
+  background-color: $successThemecol10;
+}
+.theme.col-10 {
+  background-color: $successThemecol10;
+}
+@media (min-width: $mediaquerybp) {
+}
