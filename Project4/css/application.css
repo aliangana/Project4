@@ -11,6 +11,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+/* line 11, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -23,6 +24,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
+/* line 23, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -30,6 +32,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
+/* line 31, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 main {
   display: block;
 }
@@ -38,6 +41,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+/* line 40, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -49,9 +53,9 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+/* line 53, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -63,6 +67,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 64, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -75,6 +80,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
+/* line 76, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -83,19 +89,20 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+/* line 85, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+/* line 95, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -105,6 +112,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 105, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -117,6 +125,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
+/* line 116, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -125,6 +134,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+/* line 125, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -133,10 +143,12 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 133, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
+/* line 137, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -146,6 +158,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
+/* line 148, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 img {
   border-style: none;
 }
@@ -156,6 +169,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
+/* line 160, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -175,6 +189,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+/* line 176, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -185,6 +200,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+/* line 187, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -194,6 +210,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
+/* line 197, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -204,6 +221,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
+/* line 208, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -215,6 +233,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
+/* line 220, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -225,6 +244,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
+/* line 231, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -235,9 +255,9 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+/* line 242, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -254,6 +274,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+/* line 255, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -261,6 +282,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
+/* line 263, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -269,10 +291,10 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
+/* line 272, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -281,6 +303,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+/* line 282, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -290,6 +313,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+/* line 292, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -300,6 +324,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
+/* line 301, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -308,6 +333,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+/* line 310, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -320,6 +346,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
+/* line 322, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 details {
   display: block;
 }
@@ -327,6 +354,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
+/* line 330, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -336,6 +364,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
+/* line 341, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 template {
   display: none;
 }
@@ -343,6 +372,7 @@ template {
 /**
  * Add the correct display in IE 10.
  */
+/* line 349, ../../../../../Documents/GitHub/Project4/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -350,17 +380,19 @@ template {
 /* ============================================= */
 /*              Base styles                      */
 /* ============================================= */
+/* line 5, ../../../../../Documents/GitHub/Project4/scss/base/_typography.scss */
 * {
   font-family: "Lato", sans-serif;
   color: #777;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+/* line 11, ../../../../../Documents/GitHub/Project4/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
+/* line 15, ../../../../../Documents/GitHub/Project4/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
@@ -368,21 +400,25 @@ a {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+/* line 23, ../../../../../Documents/GitHub/Project4/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
+/* line 28, ../../../../../Documents/GitHub/Project4/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
+/* line 33, ../../../../../Documents/GitHub/Project4/scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
+/* line 38, ../../../../../Documents/GitHub/Project4/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -402,6 +438,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
+/* line 5, ../../../../../Documents/GitHub/Project4/scss/component/_button.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -412,22 +449,27 @@ a {
   border-radius: 5px;
 }
 
+/* line 15, ../../../../../Documents/GitHub/Project4/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
+/* line 19, ../../../../../Documents/GitHub/Project4/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
+/* line 23, ../../../../../Documents/GitHub/Project4/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
+/* line 27, ../../../../../Documents/GitHub/Project4/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
+/* line 31, ../../../../../Documents/GitHub/Project4/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -435,11 +477,12 @@ a {
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
+/* line 5, ../../../../../Documents/GitHub/Project4/scss/component/_form.scss */
 .form {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
 }
 
+/* line 9, ../../../../../Documents/GitHub/Project4/scss/component/_form.scss */
 .input {
   display: block;
   width: 94%;
@@ -449,6 +492,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
+/* line 18, ../../../../../Documents/GitHub/Project4/scss/component/_form.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -461,6 +505,7 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+/* line 5, ../../../../../Documents/GitHub/Project4/scss/component/_images.scss */
 .img-avatar {
   display: block;
   margin-left: auto;
@@ -470,6 +515,7 @@ a {
   max-height: 100%;
 }
 
+/* line 14, ../../../../../Documents/GitHub/Project4/scss/component/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -480,6 +526,7 @@ a {
   border: 1px solid #ccc;
 }
 
+/* line 24, ../../../../../Documents/GitHub/Project4/scss/component/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
@@ -489,192 +536,195 @@ a {
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
+/* line 5, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .container {
   padding: 0 10px;
 }
 
+/* line 9, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 1em 10px;
 }
 
+/* line 15, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 [class^="col"] {
   margin-top: 10px;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
 }
 
+/* line 23, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
+/* line 27, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
+/* line 31, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
+/* line 35, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
+/* line 39, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
+/* line 43, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
+/* line 47, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
+/* line 51, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
+/* line 55, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
+/* line 59, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
+/* line 63, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
+/* line 67, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
+/* line 71, ../../../../../Documents/GitHub/Project4/scss/component/_grid.scss */
 .card {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
 }
 
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: 768px) {
+  /* line 5, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  /* line 12, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+  /* line 18, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
   }
+  /* line 22, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   [class^="col"] {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin-top: 0;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
+  /* line 29, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   [class^="col"] + [class^="col"] {
     margin-left: 10px;
   }
+  /* line 33, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-1 {
-    -ms-flex-preferred-size: 8.33%;
-        flex-basis: 8.33%;
+    flex-basis: 8.33%;
   }
+  /* line 37, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-2 {
-    -ms-flex-preferred-size: 16.67%;
-        flex-basis: 16.67%;
+    flex-basis: 16.67%;
   }
+  /* line 41, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-3 {
-    -ms-flex-preferred-size: 25%;
-        flex-basis: 25%;
+    flex-basis: 25%;
   }
+  /* line 45, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-4 {
-    -ms-flex-preferred-size: 33.33%;
-        flex-basis: 33.33%;
+    flex-basis: 33.33%;
   }
+  /* line 49, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-5 {
-    -ms-flex-preferred-size: 41.67%;
-        flex-basis: 41.67%;
+    flex-basis: 41.67%;
   }
+  /* line 53, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-6 {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    flex-basis: 50%;
   }
+  /* line 57, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-7 {
-    -ms-flex-preferred-size: 58.33%;
-        flex-basis: 58.33%;
+    flex-basis: 58.33%;
   }
+  /* line 61, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-8 {
-    -ms-flex-preferred-size: 66.67%;
-        flex-basis: 66.67%;
+    flex-basis: 66.67%;
   }
+  /* line 65, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-9 {
-    -ms-flex-preferred-size: 75%;
-        flex-basis: 75%;
+    flex-basis: 75%;
   }
+  /* line 69, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-10 {
-    -ms-flex-preferred-size: 83.33%;
-        flex-basis: 83.33%;
+    flex-basis: 83.33%;
   }
+  /* line 73, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-11 {
-    -ms-flex-preferred-size: 91.67%;
-        flex-basis: 91.67%;
+    flex-basis: 91.67%;
   }
+  /* line 77, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .col-12 {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
   }
+  /* line 81, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .nav {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
   }
+  /* line 87, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .nav-link {
-    -ms-flex-preferred-size: 100px;
-        flex-basis: 100px;
+    flex-basis: 100px;
   }
+  /* line 91, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
+  /* line 95, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
+  /* line 99, ../../../../../Documents/GitHub/Project4/scss/component/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
   }
 }
+
 /*# sourceMappingURL=application.css.map */
