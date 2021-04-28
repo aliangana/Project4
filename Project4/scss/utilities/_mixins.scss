@@ -1,0 +1,14 @@
+/*align images */
+@mixin align-image(
+  $display,
+  $m-left: null,
+  $m-right: null,
+  $m-top: null,
+  $max-width: null
+) {
+  display: $display;
+  margin-left: $m-left;
+  margin-right: $m-right;
+  margin-top: $m-top;
+  max-width: $max-width;
+}

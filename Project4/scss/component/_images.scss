@@ -3,25 +3,18 @@
 /* ============================================= */
 
 .img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
+  @include align-image(block, auto, auto, 10px, 100%);
   max-height: 100%;
 }
 
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
+  @include align-image(block, auto, auto, 10px, 100%);
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid $borderColor;
 }
 
 .img-logo {
+  @include align-image(block, auto, auto);
   display: block;
   margin-left: auto;
   margin-right: auto;
